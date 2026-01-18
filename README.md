@@ -16,11 +16,11 @@ L'objectif est de créer une figurine interactive qui agit comme une extension s
 ### 1.2. Solutions techniques
 
 * **Cœur du système :** Microcontrôleur **ESP32**, choisi pour sa gestion fluide des interruptions et ses multiples canaux PWM nécessaires au pilotage synchrone des servomoteurs et du bus NeoPixel.
-* **Communication de données :** Script de pont (Bridge) en **Python** interrogeant la *Live Client Data API* de Riot Games à haute fréquence (HTTPS) et transmettant les états à l'ESP32 via une liaison **Série (USB)**.
-* **Actionneurs & Visuels :**  3 Servomoteurs (type SG90) pour l'animation cinétique.
-    * 3 LEDs adressables (NeoPixel) pour les stacks et 1 bloc circulaire (Ring) pour l'œil central.
+* **Communication de données :** Script en **Python** interrogeant la *Live Client Data API* de Riot Games à haute fréquence (HTTPS) et transmettant les états à l'ESP32 via une liaison **Série (USB)**.
+* **Actionneurs & Visuels :**  3 Servomoteurs pour l'animation cinétique.
+    * 3 LEDs adressables (NeoPixel) pour les stacks et 1 bloc circulaire pour l'œil central.
 * **Gestion de l'énergie :** Conception d'un **PCB dédié** à la distribution de puissance, incluant un filtrage par condensateurs pour lisser les appels de courant des servos et une alimentation externe **5V 3A**.
-* **Structure & Design :** Modélisation CAO et impression 3D (FDM). Le châssis est conçu pour masquer l'électronique dans le socle.
+* **Structure & Design :** Modélisation CAO et impression 3D. Le châssis est conçu pour masquer l'électronique dans le socle.
 
 ---
 
