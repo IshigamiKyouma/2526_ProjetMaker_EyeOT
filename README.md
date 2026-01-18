@@ -9,8 +9,8 @@ L'idée de ce projet est née d'une envie simple: briser le quatrième mur. Je n
 
 L'objectif est de créer une figurine interactive qui agit comme une extension sensorielle du jeu. Grâce à l'intégration de l'API de Riot Games et de composants électroniques, la figurine "vit" au rythme de la faille:
 
-.Réaction aux événements: Un feedback visuel lors de l'application des stacks de passif (LEDs hautes qui s'allument une à une) puis la centrale lors de l'activation du passif.
+*Réaction aux événements: Un feedback visuel lors de l'application des stacks de passif (LEDs hautes qui s'allument une à une) puis la centrale lors de l'activation du passif.
 
-.Analyse des mouvements: Les tentacules se déplacent en fonction de la vitesse de déplacement
+*Analyse des mouvements: Les tentacules se déplacent en fonction de la vitesse de déplacement
 
-.
+*
