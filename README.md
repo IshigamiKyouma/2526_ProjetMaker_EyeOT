@@ -15,13 +15,33 @@ L'objectif est de créer une figurine interactive qui agit comme une extension s
 
 ### 1.2. Solutions techniques
 
-1. ESP32 pour la commande des LEDs et des servomoteurs
+* **Cœur du système :** Microcontrôleur **ESP32**, choisi pour sa gestion fluide des interruptions et ses multiples canaux PWM nécessaires au pilotage synchrone des servomoteurs et du bus NeoPixel.
+* **Communication de données :** Script de pont (Bridge) en **Python** interrogeant la *Live Client Data API* de Riot Games à haute fréquence (HTTPS) et transmettant les états à l'ESP32 via une liaison **Série (USB)**.
+* **Actionneurs & Visuels :** * 3 Servomoteurs (type SG90) pour l'animation cinétique.
+    * 3 LEDs adressables (NeoPixel) pour les stacks et 1 bloc circulaire (Ring) pour l'œil central.
+* **Gestion de l'énergie :** Conception d'un **PCB dédié** à la distribution de puissance, incluant un filtrage par condensateurs pour lisser les appels de courant des servos et une alimentation externe **5V 3A**.
+* **Structure & Design :** Modélisation CAO et impression 3D (FDM). Le châssis est conçu pour masquer l'électronique dans le socle.
 
-2. Liaison USB pour la communication avec la *Live Client Data API* de League of Legends
+---
 
-3. Modélisation et impression 3D du corps et du socle pour soutenir le corps et accueillir l'électronique 
+### Mécanisme de mouvement : Le système à câbles
+Pour reproduire le mouvement fluide et "invertébré" des tentacules de Vel'Koz avec seulement 3 servomoteurs, le projet utilise un système de **flexion par câbles (tendeurs)** :
 
-4. PCB pour l'alimentation des composants
+* **Principe :** Chaque tentacule est imprimée en matériau semi-rigide ou composée de vertèbres articulées.
+* **Transmission :** Un câble (type fil de pêche ou nylon) parcourt l'intérieur de la tentacule jusqu'à l'extrémité. 
+* **Actionnement :** Le servomoteur, situé dans la base, tire sur le câble pour courber la structure. Un ressort interne ou la mémoire de forme du plastique permet le retour à la position initiale.
+* **Résultat :** Cela permet d'obtenir une ondulation organique plutôt qu'une rotation robotique rigide.
 
-5. Alimentation externe de type 5V 3A. (Valeur susceptibles de changer en fonction des composants choisis)
-### 1.3. Rétroplanning
+---
+
+### Rétro-planning
+
+| Session | Phase | Objectif principal |
+| ------- | ----- | ------------------ |
+| **TP 1** | **PoC Logiciel** | Script Python : récupération des données API et envoi vers l'ESP32. |
+| **TP 2** | **Électronique** | Montage breadboard : test simultané des 3 servos et des LEDs. |
+| **TP 3** | **Design PCB** | Routage du circuit d'alimentation et préparation à la soudure. |
+| **TP 4** | **Modélisation 3D** | CAO du corps et du mécanisme de tension des tentacules. |
+| **TP 5** | **Mécanique** | Assemblage des servos et tests des câbles de traction. |
+| **TP 6** | **Intégration** | Soudure finale sur PCB et insertion dans la structure 3D. |
+| **TP 7** | **Calibration** | Mapping des data LoL -> angles de servos et finitions visuelles. |
