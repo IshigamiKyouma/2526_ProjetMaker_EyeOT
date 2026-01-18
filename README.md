@@ -5,7 +5,14 @@
 En tant que joueur passionné de League of Legends et "Main Vel'Koz", j'ai toujours été fasciné par le concept de ce champion :
 une entité du Néant qui déconstruit la réalité pour accumuler des connaissances.
 
-![Rendu 3D du modèle Vel'Koz (Source : Riot Games)](https://static.wikia.nocookie.net/leagueoflegends/images/d/d6/Vel%27Koz_Render.png/revision/latest/scale-to-width-down/1200?cb=20200514004403)
+<details>
+  <summary>Cliquez ici pour voir le modèle 3D de Vel'Koz</summary>
+  <br>
+  <div align="center">
+    <img src="https://static.wikia.nocookie.net/leagueoflegends/images/d/d6/Vel%27Koz_Render.png/revision/latest/scale-to-width-down/1200?cb=20200514004403" width="500" alt="Modèle 3D Vel'Koz">
+    <p><i>Rendu 3D du modèle Vel'Koz (Source : Riot Games)</i></p>
+  </div>
+</details>
 
 L'idée de ce projet est née d'une envie simple: briser le quatrième mur. Je ne voulais plus que Vel'Koz soit uniquement une image sur mon écran, mais qu'il devienne un compagnon physique capable de réagir, en temps réel, à l'intensité de mes parties.
 
