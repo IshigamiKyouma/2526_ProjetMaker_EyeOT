@@ -5,6 +5,8 @@
 En tant que joueur passionné de League of Legends et "Main Vel'Koz", j'ai toujours été fasciné par le concept de ce champion :
 une entité du Néant qui déconstruit la réalité pour accumuler des connaissances.
 
+![Rendu 3D du modèle Vel'Koz (Source : Riot Games)](https://static.wikia.nocookie.net/leagueoflegends/images/d/d6/Vel%27Koz_Render.png/revision/latest/scale-to-width-down/1200?cb=20200514004403)
+
 L'idée de ce projet est née d'une envie simple: briser le quatrième mur. Je ne voulais plus que Vel'Koz soit uniquement une image sur mon écran, mais qu'il devienne un compagnon physique capable de réagir, en temps réel, à l'intensité de mes parties.
 
 L'objectif est de créer une figurine interactive qui agit comme une extension sensorielle du jeu. Grâce à l'intégration de l'API de Riot Games et de composants électroniques, la figurine "vit" au rythme de la faille:
