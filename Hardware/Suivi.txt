@@ -1,0 +1,32 @@
+Nous allons probablement utiliser une ESP32 afin de commander les LEDs et les moteurs.
+
+Problème 1: (Hard)
+
+Une ESP32 est connecté en 3.3V or les neopixels sont alimentés en 5V => Il va donc falloir utiliser un buck.
+
+IDE: (Soft)
+
+On utilisera ce qui est conseillé dans la doc d'ESP-IDF.
+https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html
+
+Problème 2: (Soft)
+
+Il faudra que la carte communique avec l'ordinateur, soit par USB soit par bluetooth.
+
+Problème 3: (Hard)
+
+Si la carte n'est pas branché en USB, elle n'a pas d'alimentation. Il faudra donc une alim à part.
+L'intensité proposé par l'USB ne sera probablement pas suffisante pour alimenter les 3 moteurs et les neopixels.
+
+Problème 4: (Soft)
+
+Communication avec l'API riot games, il faudra envoyer les trames soit entières à haute vitesse soit faire du preprocessing depuis le PC.
+Verifier taille des trames de l'API.
+Il faut que tout se fasse en quelques ms.
+
+Problème 5: (Hard)
+
+Il faut trouver une manière de rendre les tentacules très mobiles.
+Transformer un mouvement rotationnel en mouvement de tentacule. 
+Idées: Fil de pêche ... 
+
