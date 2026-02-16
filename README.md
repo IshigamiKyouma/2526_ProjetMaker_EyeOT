@@ -36,6 +36,12 @@ L'objectif est de créer une figurine interactive qui agit comme une extension s
 
 ---
 
+### 1.3. Obtention des valeurs
+
+Pour obtenir:
+* la vitesse de déplacement du joueur: on utilisera directement l'API
+* les stacks de passif: Apparaissent visuelement quand on clique sur un ennemie
+
 ### Mécanisme de mouvement : Le système à câbles
 Pour reproduire le mouvement fluide et "invertébré" des tentacules de Vel'Koz avec seulement 3 servomoteurs, le projet utilise un système de **flexion par câbles (tendeurs)** :
 
