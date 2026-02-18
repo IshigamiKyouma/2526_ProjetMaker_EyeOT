@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TMC2225-SA-T")(type "KiCad")(uri "/home/johann/Documents/S8_Maker/Projet/2526_ProjetMaker_EyeOT/CAD/ul_TMC2225-SA-T/KiCADv6/2026-02-13_12-56-52.kicad_sym")(options "")(descr ""))
+)

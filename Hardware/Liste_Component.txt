@@ -1,0 +1,9 @@
+3 Stepper motor : 11HS18-0674S / 14HM11-0404S 
+3 motor driver: TM2225-SA-T
+Neopixels : 
+STM32: STM32G474RET6
+Bloc secteur 5V 4A
+3 level-shifter 3.3V -> 5V pour chaque moteur
+1 level-shifter 3.3V -> 5V pour les neopixels
+1 Step-Down Alim-> STM: Wurth	171013801
+1 Pont USB-UART
