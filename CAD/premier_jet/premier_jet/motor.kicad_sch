@@ -305,130 +305,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TMC2225-SA-T:TMC2225-SA-T"
 			(pin_names
 				(offset 0.254)
@@ -2322,16 +2198,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 71.12) (xy 95.25 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f435656-d318-4205-93cc-80f5924f6c23")
-	)
-	(wire
-		(pts
 			(xy 101.6 66.04) (xy 107.95 66.04)
 		)
 		(stroke
@@ -2349,6 +2215,16 @@
 			(type default)
 		)
 		(uuid "53050c4e-2fc2-46ef-a623-dadee21572a5")
+	)
+	(wire
+		(pts
+			(xy 105.41 71.12) (xy 107.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2a5936-c2e1-478f-a086-06bbc2e13aad")
 	)
 	(wire
 		(pts
@@ -2442,16 +2318,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 74.93) (xy 105.41 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1056117-8823-48eb-b1ce-c671139f42f4")
-	)
-	(wire
-		(pts
 			(xy 69.85 91.44) (xy 72.39 91.44)
 		)
 		(stroke
@@ -2489,16 +2355,6 @@
 			(type default)
 		)
 		(uuid "b545912c-1580-4728-9417-3e0662112cfc")
-	)
-	(wire
-		(pts
-			(xy 92.71 74.93) (xy 95.25 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b711a183-fa36-4905-878c-807bfaec6beb")
 	)
 	(wire
 		(pts
@@ -2552,16 +2408,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 73.66) (xy 107.95 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7091908-e4bc-410a-be67-276db7e51fdc")
-	)
-	(wire
-		(pts
 			(xy 104.14 114.3) (xy 107.95 114.3)
 		)
 		(stroke
@@ -2572,13 +2418,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 74.93) (xy 105.41 73.66)
+			(xy 105.41 73.66) (xy 107.95 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf2d1f90-37ad-4474-a608-9a6928f093a2")
+		(uuid "ccc2f4cd-f064-47c4-be06-93bdaf090f9b")
 	)
 	(wire
 		(pts
@@ -2589,16 +2435,6 @@
 			(type default)
 		)
 		(uuid "db58fc0e-98d3-4249-bfa4-8bb0ba839063")
-	)
-	(wire
-		(pts
-			(xy 102.87 71.12) (xy 107.95 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddcb5fbf-6501-4df6-8639-c11819eb2934")
 	)
 	(wire
 		(pts
@@ -3199,81 +3035,6 @@
 				)
 				(path "/36d3f7e8-0ea0-47ce-aa05-c602f0df039a/fbfd92f2-dab5-408f-a544-30223ba7d99a"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 99.06 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "13abb16b-fe46-42fb-a274-51e2a5a7859a")
-		(property "Reference" "SenseR2"
-			(at 97.79 77.216 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 99.06 78.994 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 76.708 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 99.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d73294d4-78f8-4e10-a688-b4a08199ea27")
-		)
-		(pin "1"
-			(uuid "3c48caf0-ff75-49a5-ae72-9e0c9e720b8d")
-		)
-		(instances
-			(project "premier_jet"
-				(path "/36d3f7e8-0ea0-47ce-aa05-c602f0df039a/038b460e-26c2-4ffb-a900-d66a9e1f3def"
-					(reference "SenseR6")
-					(unit 1)
-				)
-				(path "/36d3f7e8-0ea0-47ce-aa05-c602f0df039a/8788187e-ff99-4e1b-8eaf-42d1f137c9be"
-					(reference "SenseR4")
-					(unit 1)
-				)
-				(path "/36d3f7e8-0ea0-47ce-aa05-c602f0df039a/fbfd92f2-dab5-408f-a544-30223ba7d99a"
-					(reference "SenseR2")
 					(unit 1)
 				)
 			)
@@ -3959,81 +3720,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 99.06 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6afa97b7-5f95-46ec-b744-1b823d81aa8b")
-		(property "Reference" "SenseR1"
-			(at 99.06 69.088 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 99.06 73.152 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 72.898 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 99.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8d53bb35-e26f-4dcf-ad6c-b15b6d8bfa39")
-		)
-		(pin "1"
-			(uuid "641526a5-fc6c-4f2b-800f-3d7b7d96a8b0")
-		)
-		(instances
-			(project "premier_jet"
-				(path "/36d3f7e8-0ea0-47ce-aa05-c602f0df039a/038b460e-26c2-4ffb-a900-d66a9e1f3def"
-					(reference "SenseR5")
-					(unit 1)
-				)
-				(path "/36d3f7e8-0ea0-47ce-aa05-c602f0df039a/8788187e-ff99-4e1b-8eaf-42d1f137c9be"
-					(reference "SenseR3")
-					(unit 1)
-				)
-				(path "/36d3f7e8-0ea0-47ce-aa05-c602f0df039a/fbfd92f2-dab5-408f-a544-30223ba7d99a"
-					(reference "SenseR1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 104.14 106.68 270)
 		(unit 1)
@@ -4135,7 +3821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TMC2225:HTSSOP28_TMC2225_TRI"
 			(at 107.95 50.8 0)
 			(effects
 				(font
@@ -4344,7 +4030,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 74.93 270)
+		(at 105.41 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4353,7 +4039,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e39dca8-d7a3-4861-a002-4153911cf3c0")
 		(property "Reference" "#PWR035"
-			(at 86.36 74.93 0)
+			(at 99.06 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4362,7 +4048,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 74.9299 90)
+			(at 101.6 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,7 +4057,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 74.93 0)
+			(at 105.41 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +4066,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 74.93 0)
+			(at 105.41 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,7 +4075,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 74.93 0)
+			(at 105.41 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4522,7 +4208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TMC2225:HTSSOP28_TMC2225_TRI"
 			(at 107.95 88.9 0)
 			(effects
 				(font
@@ -4654,7 +4340,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 71.12 270)
+		(at 105.41 71.12 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4663,7 +4349,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2e15588-15bc-4a1b-b5f0-3773d316f3fd")
 		(property "Reference" "#PWR038"
-			(at 86.36 71.12 0)
+			(at 99.06 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4672,7 +4358,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 71.1199 90)
+			(at 101.6 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4681,7 +4367,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 71.12 0)
+			(at 105.41 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4690,7 +4376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 71.12 0)
+			(at 105.41 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4699,7 +4385,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 71.12 0)
+			(at 105.41 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)

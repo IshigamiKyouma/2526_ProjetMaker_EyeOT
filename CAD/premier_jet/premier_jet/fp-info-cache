@@ -1,4 +1,4 @@
-27143119336376000
+27155520349043552
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,27 @@ audio belton reverb
 0
 7
 7
+BU33SD5WG
+SSOP5_ROM
+
+BU33SD5WG-TR 
+0
+5
+5
+BU33SD5WG
+SSOP5_ROM-L
+
+BU33SD5WG-TR 
+0
+5
+5
+BU33SD5WG
+SSOP5_ROM-M
+
+BU33SD5WG-TR 
+0
+5
+5
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -100344,6 +100365,27 @@ Logo WEEE
 0
 0
 0
+TMC2225
+HTSSOP28_TMC2225_TRI
+
+TMC2225-SA-T 
+0
+28
+28
+TMC2225
+HTSSOP28_TMC2225_TRI-L
+
+TMC2225-SA-T 
+0
+28
+28
+TMC2225
+HTSSOP28_TMC2225_TRI-M
+
+TMC2225-SA-T 
+0
+28
+28
 TerminalBlock
 TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
 terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu
@@ -107330,3 +107372,10 @@ Varistor VF
 0
 2
 2
+veltest
+veltest
+
+
+0
+0
+0
