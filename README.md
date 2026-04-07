@@ -1,6 +1,6 @@
 # 2526_ProjetMaker_EyeOT
 
-Projet de MANSARD Johann réalisé dans le cadre du projet Maker.
+Projet de MANSARD Johann réalisé dans le cadre de l'option Maker.
 
 ## 1. Description du Projet et rétroplanning
 ### 1.1. Contexte et objectifs
@@ -27,8 +27,8 @@ L'objectif est de créer une figurine interactive qui agit comme une extension s
 
 ### 1.2. Solutions techniques
 
-* **Cœur du système :** Microcontrôleur **ESP32**, choisi pour sa gestion fluide des interruptions et ses multiples canaux PWM nécessaires au pilotage synchrone des servomoteurs et du bus NeoPixel.
-* **Communication de données :** Script en **Python** interrogeant la *Live Client Data API* de Riot Games à haute fréquence (HTTPS) et transmettant les états à l'ESP32 via une liaison **Série (USB)**.
+* **Cœur du système :** Microcontrôleur **STM32**, choisi pour sa gestion fluide des interruptions et ses multiples canaux PWM nécessaires au pilotage synchrone des servomoteurs et du bus NeoPixel.
+* **Communication de données :** Script en **Python** interrogeant la *Live Client Data API* de Riot Games à haute fréquence (HTTPS) et transmettant les états à la STM via une liaison **Série (USB)**.
 * **Actionneurs & Visuels :**  3 Servomoteurs pour l'animation cinétique.
     * 3 LEDs adressables (NeoPixel) pour les stacks et 1 bloc circulaire pour l'œil central.
 * **Gestion de l'énergie :** Conception d'un **PCB dédié** à la distribution de puissance, incluant un filtrage par condensateurs pour lisser les appels de courant des servos et une alimentation externe **5V 3A**.
