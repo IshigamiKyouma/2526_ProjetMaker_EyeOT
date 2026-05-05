@@ -1,6 +1,6 @@
 # 2526_ProjetMaker_EyeOT
 
-Projet de MANSARD Johann réalisé dans le cadre de l'option Maker.
+Projet de MANSARD Johann réalisé dans le cadre de l'option Maker.\
 Lien de la vidéo: https://youtube.com/shorts/I4skJVQ_Xr0?feature=share
 
 ## 1. Description du Projet et rétroplanning
