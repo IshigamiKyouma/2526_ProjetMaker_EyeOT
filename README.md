@@ -1,6 +1,8 @@
 # 2526_ProjetMaker_EyeOT
 
-Projet de MANSARD Johann réalisé dans le cadre de l'option Maker.
+Projet de MANSARD Johann réalisé dans le cadre de l'option Maker.\
+Lien de la vidéo: https://youtube.com/shorts/I4skJVQ_Xr0?feature=share
+Lien du répo avec les exos: https://github.com/IshigamiKyouma/2526_Maker_Exercises
 
 ## 1. Description du Projet et rétroplanning
 ### 1.1. Contexte et objectifs
